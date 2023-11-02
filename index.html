@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rendom Password generator</title>
+    <link rel="stylesheet" href="style.css">
+   
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">
+            <div class="input">
+               
+                <span class="password" id="setpass">1s5f494</span>
+
+            </div>
+            <div class="methods">
+                <div class="flex ">
+                    <p>Password Lenght</p>
+                    <input type="number" class="pass-length" max="30" min="2" value="10" id="total-char">
+                </div>
+
+                <div class="flex">
+                    <p>Contains Uppercasee</p>
+                    <input type="checkbox" class="uppercasee" value="" id="uppercasee">
+                </div>
+
+                <div class="flex">
+                    <p>Contains Lowercase</p>
+                    <input type="checkbox" class="lowercase" id="lowercase"> 
+                </div>
+
+                <div class="flex">
+                    <p>Contains Number</p>
+                    <input type="checkbox" class="numbers" id="numberInput">
+                </div>
+
+                <div class="flex">
+                    <p>Contains Symbols</p>
+                    <input type="checkbox" class="symbols" id="symbolInput">
+                </div>
+                <button id="btn">Generator</button>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
